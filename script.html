@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando textos</title>
+</head>
+<body>
+    <h1 id= "titulo">
+    Meu site 
+</h1>
+
+<button onclick="mudarTexto()">
+    Mudar titulo
+</button>
+<script> 
+    function mudarTexto() {
+        document.getElementById("titulo").textContent="Agora o site é interativo!"; }
+         function alguma() {
+        document.getElementById("titulo").textContent="Nova interação!"; }
+         
+    </script>
+
+
+    <button onclick="alguma()">
+    Mude novamente o titulo
+</button>
+ 
+    
+
+
+</body>
+</html>
